@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.summaryBlock {
+    display: flex;
+    gap: 10px;
+}
+
+.summary {
+    border: 2px solid #3b82f6;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+
+.summary:hover {
+    box-shadow: 0 0 0 2px #3b82f6;
+}
+
+.moreInfoBlock {
+    display: flex;
+    flex-direction: column;
+}
+
+.moreInfo {
+    border: 2px solid rgba(59, 130, 246, 0.5);
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    max-width: 730px;
+}
+
+.moreInfo:hover {
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+}
+
+li{
+    text-align: left;
+    color: #3b82f6; 
+}
+
+h3{
+  color:  rgba(59, 130, 246, 0.5);
+}
